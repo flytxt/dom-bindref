@@ -1,0 +1,39 @@
+{
+  "name": "dom-bindref",
+  "authors": [
+    "Gazal <mohamed.gazal@gmail.com>"
+  ],
+  "description": "A `HTMLTemplateElement` extension that can be used to reference another template.",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "template"
+  ],
+  "main": "dom-bindref.html",
+  "license": "MIT",
+  "homepage": "https://github.com/gazal-k/dom-bindref",
+  "ignore": [
+    "/.*",
+    "/test/",
+    "/gulpfile.js",
+    "/package.json"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  },
+  "_release": "893c12d163",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "893c12d16368609f5216a2bdb14f2447e4b304e4"
+  },
+  "_source": "git://github.com/gazal-k/dom-bindref.git",
+  "_target": "master",
+  "_originalSource": "gazal-k/dom-bindref",
+  "_direct": true
+}

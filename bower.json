@@ -1,0 +1,30 @@
+{
+  "name": "dom-bindref",
+  "version": "0.0.1",
+  "authors": [
+    "Gazal <mohamed.gazal@gmail.com>"
+  ],
+  "description": "A `HTMLTemplateElement` extension that can be used to reference another template.",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "template"
+  ],
+  "main": "dom-bindref.html",
+  "license": "MIT",
+  "homepage": "https://github.com/gazal-k/dom-bindref",
+  "ignore": [
+    "/.*",
+    "/test/",
+    "/gulpfile.js",
+    "/package.json"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "web-component-tester": "*"
+  }
+}
