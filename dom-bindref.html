@@ -1,3 +1,4 @@
+<link rel="import" href="../polymer/polymer.html"/>
 <!--
 @license
 Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
@@ -45,13 +46,10 @@ changed using the `as` property.
 
 Example:
 
-```html
-<template is="dom-template" id="template-bind"><span>[[item.key]]</span></template>
-<template is="dom-bindref" ref="template-bind" bind='{"key":"value"}'></dom-bindref>
-```
+    <template is="dom-template" id="template-bind"><span>[[item.key]]</span></template>
+    <template is="dom-bindref" ref="template-bind" bind='{"key":"value"}'></dom-bindref>
 
 -->
-<link rel="import" href="templatizer.html">
 
 <script>
 
@@ -133,9 +131,9 @@ Example:
       while (Polymer.dom(root).parentNode) {
         root = Polymer.dom(root).parentNode;
       }
-      template = Polymer.dom(root).querySelector("template#" + this.ref);
+      template = Polymer.dom(root).querySelector('template#' + this.ref);
       if (!template) {
-        template = document.querySelector("template#" + this.ref);
+        template = document.querySelector('template#' + this.ref);
       }
       bind[this.as] = this.bind;
       templateRoot = template.stamp(bind).root;
